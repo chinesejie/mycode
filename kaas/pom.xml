@@ -11,8 +11,8 @@
 	<url>http://maven.apache.org</url>
 
 	<modules>
-		<module>../kaas-WS</module>
-		<module>../kaas-ETL</module>
+		<module>../kaas-ws</module>
+		<module>../kaas-etl</module>
 	</modules>
 
 	<properties>
