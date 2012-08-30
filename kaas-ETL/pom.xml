@@ -9,8 +9,8 @@
 		<relativePath>../kaas/pom.xml</relativePath>
   	</parent>
 	
-	<artifactId>kaas-ETL</artifactId>
-	<name>kaas-ETL</name>
+	<artifactId>kaas-etl</artifactId>
+	<name>kaas-etl</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
