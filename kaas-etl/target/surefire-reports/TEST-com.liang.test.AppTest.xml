@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="8.344" errors="0" skipped="0" tests="1" name="com.liang.test.AppTest">
+<testsuite failures="0" time="6.552" errors="0" skipped="0" tests="1" name="com.liang.test.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="E:\JDK\jre\bin"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\lab\github_local_repository\kaas"/>
+    <property name="user.dir" value="F:\lab\github_local_repository\kaas-ETL"/>
     <property name="java.runtime.version" value="1.6.0_21-b07"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="E:\JDK\jre\lib\endorsed"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="F:\lab\springsource\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf1941170075776908611.tmp"/>
+    <property name="classworlds.conf" value="F:\lab\springsource\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf219051905870779487.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="E:\JDK\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/JDK/bin/../jre/bin/client;E:/JDK/bin/../jre/bin;E:/JDK/bin/../jre/lib/i386;F:\app\Administrator\product\11.1.0\db_1\bin;C:\Program Files\AMD APP\bin\x86;E:\JDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows7Master;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;E:\Program Files\Windows7Master;D:\Program Files\ATI Technologies\ATI.ACE\Core-Static;E:\Program Files\Python32;E:\Program Files\WinRAR;E:\JDK\bin;D:\tomcat6.0.35\bin;E:\Program Files\Android SDK\android-sdk-windows\platform-tools;C:\Program Files\Internet Explorer;E:\Program Files\Rational\common;D:\ant1.8.4\bin;D:\maven3.0.4\bin;F:\lab\nexus2.1.1\nexus-2.1.1\bin;F:\Program Files\Microsoft SQL Server\100\Tools\Binn\;F:\Program Files\Microsoft SQL Server\100\DTS\Binn\;F:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;E:\Program Files\springsourceToolSuite2.9.2\springsource\sts-2.9.2.RELEASE;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -58,5 +58,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="7.95" classname="com.liang.test.AppTest" name="test"/>
+  <testcase time="5.834" classname="com.liang.test.AppTest" name="test"/>
 </testsuite>

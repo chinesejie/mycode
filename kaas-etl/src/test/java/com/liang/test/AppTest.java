@@ -8,10 +8,10 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.liang.model.Goods;
-import com.liang.reader.SatInfoReader;
-import com.liang.service.TransformerService;
-import com.liang.validation.ValidateXML;
+import com.thinkingtop.kaas.model.Goods;
+import com.thinkingtop.kaas.reader.SatInfoReader;
+import com.thinkingtop.kaas.service.TransformerService;
+import com.thinkingtop.kaas.validation.ValidateXML;
 
 import junit.framework.TestCase;
 
