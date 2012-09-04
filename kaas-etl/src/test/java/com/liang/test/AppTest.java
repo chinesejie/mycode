@@ -79,6 +79,7 @@ public class AppTest extends TestCase{
 			for(int i=0;i<list.size();i++) {
 				p("order_"+list.get(i)+"'s goods list::");
 				System.out.println(transformerService.getGoodsIdGroup(list.get(i), mapping_table_name, goods_id, order_id));
+				
 			}
 		}
 		else {
