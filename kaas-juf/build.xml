@@ -1,0 +1,47 @@
+<project default="create-source" basedir=".">
+	<target name="create-source">
+		<delete> 
+			<fileset dir="src/main/java/org/hardcode/juf/status" includes="*"/>
+		</delete>
+		<java classname="org.exolab.castor.builder.SourceGenerator">
+			<arg value="-i"/>
+			<arg value="schemas/status.xsd"/>
+			<arg value="-package"/>
+			<arg value="org.hardcode.juf.status"/>
+			<arg value="-dest"/>
+			<arg value="src/main/java"/>
+			<classpath>
+				<pathelement location="../workspace/Andami/lib/castor-0.9.5.3-xml.jar"/>
+				<pathelement location="../workspace/Andami/lib/xercesImpl.jar"/>
+			</classpath>
+		</java>
+		<delete> 
+			<fileset dir="src/main/java/org/hardcode/juf/update" includes="*"/>
+		</delete>
+		<java classname="org.exolab.castor.builder.SourceGenerator">
+			<arg value="-i"/>
+			<arg value="schemas/update.xsd"/>
+			<arg value="-package"/>
+			<arg value="org.hardcode.juf.update"/>
+			<arg value="-dest"/>
+			<arg value="src/main/java"/>
+			<classpath>
+				<pathelement location="../workspace/Andami/lib/castor-0.9.5.3-xml.jar"/>
+				<pathelement location="../workspace/Andami/lib/xercesImpl.jar"/>
+			</classpath>
+		</java>
+	</target>
+
+	<target name="create-jar">
+		<jar jarfile="jupdate-1.0.jar" basedir="target/classes"/>
+	</target>
+
+	<target name="create-installation-jar">
+		<jar jarfile="sample-update-1.0.jar" basedir="target/classes" includes="org/hardcode/juf/sample/SampleUpdate.class*"/>
+	</target>
+	
+	<target name="create-installation-jar2">
+			<jar jarfile="sample-update2-1.0.jar" basedir="target/classes" includes="org/hardcode/juf/sample/SampleUpdate2.class*"/>
+		</target>
+
+</project>
